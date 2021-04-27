@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".map.SearchLocationActivity">
+
+    <fragment
+        android:id="@+id/map"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:name="com.google.android.gms.maps.SupportMapFragment"/>
+    <SearchView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="5dp"
+        android:queryHint="Search"
+        android:id="@+id/location"
+        android:layout_margin="10dp"
+        android:iconifiedByDefault="false"
+        android:background="@color/white"/>
+
+    <Button
+        android:id="@+id/btn_get_location"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/btn_save_location"
+        android:layout_margin="20dp"
+        android:textAllCaps="false"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:elevation="5dp"
+        android:textColor="@color/purple_500"
+        android:text="Save Location"></Button>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/btn_current_loc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btn_get_location"
+        android:backgroundTint="@color/purple_500"
+        android:layout_alignParentEnd="true"
+        android:clickable="true"
+        app:fabSize="auto"
+        android:layout_margin="20dp"
+        app:srcCompat="@drawable/ic_my_location_white" />
+
+
+</RelativeLayout>

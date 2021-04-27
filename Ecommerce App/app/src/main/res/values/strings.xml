@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Ecommerce App</string>
+    <string name="preference_file_key">com.example.android.hellosharedprefs</string>
+    <string name="saved_user_email">user_email</string>
+    <string name="saved_user_password">user_password</string>
+    <string name="saved_user_img">user_img_path</string>
+    <string name="saved_user_boolean">boolean</string>
+    <string name="saved_user_ID">user_id</string>
+    <string name="saved_databse">save_database</string>
+
+    <string-array name="gender">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+
+    <string name="map_key" translatable="false">
+        AIzaSyAdYl5sPMCD1GC_A4yZsogPLoQo2lv9jSQ
+    </string>
+</resources>

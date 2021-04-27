@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="id_activityScreenTitle">
+        <item></item>
+        <item>DashBoard</item>
+        <item> Order Graph </item>
+        <item>Nearby res</item>
+        <item>Shopping Card</item>
+        <item>About Us</item>
+        <item/>
+        <item>Log out</item>
+    </string-array>
+
+    <string-array name="id_activityScreenIcons">
+        <item></item>
+        <item>@drawable/ic_dashboard_24</item>
+        <item>@drawable/ic_baseline_auto_graph_24</item>
+        <item>@drawable/userphoto</item>
+        <item>@drawable/ic_baseline_shopping_cart_24</item>
+        <item>@drawable/ic_info_24</item>
+        <item>0</item>
+        <item>@drawable/ic_logout_24</item>
+    </string-array>
+
+</resources>
